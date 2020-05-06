@@ -49,7 +49,7 @@ public class RollercoasterTest {
 
         assertEquals(8.40, rollerCoaster.priceFor(visitor), 0.01);
         visitor = new Visitor(18, 250, 10.00);
-        assertEquals(8.40, rollerCoaster.priceFor(visitor), 0.01);
+        assertEquals(16.80, rollerCoaster.priceFor(visitor), 0.01);
     }
 
 
